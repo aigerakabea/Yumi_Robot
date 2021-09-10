@@ -224,9 +224,9 @@ def info(update: Update, context: CallbackContext):
         return
 
     rep = message.reply_text(
-        "<code>Gathering Info...</code>", parse_mode=ParseMode.HTML)
+        "<code>〘 Gᴇᴛɪɴɢ ʏᴏᴜʀ Iɴғᴏ 〙</code>", parse_mode=ParseMode.HTML)
 
-    text = (f"╒═══「<b> Information Gathered:</b> 」\n"
+    text = (f"╒═══「<b>〘 Iɴғᴏʀᴍᴀᴛɪᴏɴs Gᴇᴛ ɪᴛ 〙:</b> 」\n"
             f"ID: <code>{user.id}</code>\n"
             f"First Name: {html.escape(user.first_name)}")
 
@@ -271,19 +271,19 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Ranking of The Person is Owner of Emilia"
+        text += "\n\nɪᴛ's ᴍʏ ʟᴇɢᴇɴᴅ ɪ ᴍᴇᴀɴ 👸Yᴜᴍɪ Oᴡɴᴇʀ🤴 "
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis Person is a Developer of Emilia"
+        text += "\n\nThis Person is a Developer of Yᴜᴍɪ"
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThis Person is a Sudo-User of Emilia"
+        text += "\n\nThis Person is a Sudo-User of Yᴜᴍɪ"
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThis Person is a Support User of Emilia"
+        text += "\n\nThis Person is a Support User of Yᴜᴍɪ"
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThis User is Immune to all Restrictions over Emilia"
+        text += "\n\nThis User is Immune to all Restrictions over Yᴜᴍɪ"
         disaster_level_present = True
     elif user.id in WOLVES:
         text += "\n\nThis User is Immune to Automated Restrictions"
