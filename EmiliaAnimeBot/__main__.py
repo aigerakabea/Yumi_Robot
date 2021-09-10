@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [🤴](https://telegra.ph/file/c766d686089a43e0ff33a.jpg) 
+`Hey There!` [👸](https://telegra.ph/file/d7d927fe899b7415e21d7.jpg) 
 `My name is` *❤️Yᴜᴍɪ*`
 `I am an group management bot.`
 You can find my list of available commands with` *./help*   
@@ -68,7 +68,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="🔐 Commands", callback_data="help_back"
+          text="【 ✗Aɴɪᴍᴇs✗ 】", url="https://t.me/shinei_Animation"
         ),
     ],
     [
