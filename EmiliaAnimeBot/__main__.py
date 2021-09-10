@@ -57,7 +57,7 @@ PM_START_TEXT = """
 `Hᴇʏ Tʜᴇʀᴇ!` [👸](https://telegra.ph/file/d7d927fe899b7415e21d7.jpg) 
 `ᴍʏ Nᴀᴍᴇ Is` *〘 Yᴜᴍɪ 〙*`
 `ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʀᴏʙᴏᴛ.`
-You can find my list of available commands with` ./help
+You can find my list of available commands Wɪᴛʜ?〘 /help 〙
 """
 
 buttons = [
@@ -68,7 +68,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="🔐 Commands", callback_data="help_back"
+          text="🔐 Commands", callback_data="gabi_"
         ),
     ],
     [
