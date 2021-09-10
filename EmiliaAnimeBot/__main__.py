@@ -54,10 +54,10 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hᴇʏ Tʜᴇʀᴇ!` [👸](https://telegra.ph/file/d7d927fe899b7415e21d7.jpg) 
-`ᴍʏ Nᴀᴍᴇ Is` *〘 Yᴜᴍɪ 〙*`
-`ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʀᴏʙᴏᴛ.`
-You can find my list of available commands Wɪᴛʜ?〘 /help 〙
+`Hey There!` [🤴](https://telegra.ph/file/c766d686089a43e0ff33a.jpg) 
+`My name is` *❤️Yᴜᴍɪ*`
+`I am an group management bot.`
+You can find my list of available commands with` *./help*   
 """
 
 buttons = [
