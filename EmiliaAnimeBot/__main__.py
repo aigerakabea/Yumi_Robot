@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/b37cec509d121c8c63518.jpg"
+EMILIA_IMG = "https://telegra.ph/file/c60a0c28c6f4f20dd7d28.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -54,16 +54,16 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [👩‍💼](https://telegra.ph/file/c766d686089a43e0ff33a.jpg) 
-`My name is` *Emilia*`
-`I am an Anime Themed group management bot.`
+`Hᴇʏ Tʜᴇʀᴇ!` [🤴](https://telegra.ph/file/c60a0c28c6f4f20dd7d28.jpg) 
+`ᴍʏ Nᴀᴍᴇ Is` *〘 Vᴇɢᴇᴛᴀ 〙*`
+`ɪ ᴀᴍ ᴀɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʀᴏʙᴏᴛ.`
 You can find my list of available commands with` *🔐Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD EMILIA TO YOUR GROUP ➕️",url="t.me/EmiliaAnimeRoBot?startgroup=true"
+            text="【 ✗Aᴅᴅ ❤️Yᴜᴍɪ ᴛᴏ Yᴏᴜʀ ɢʀᴏᴜᴘ✗ 】",url="t.me/EmiliaAnimeRoBot?startgroup=true"
         ),
     ],
     [
