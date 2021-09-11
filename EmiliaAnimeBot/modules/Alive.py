@@ -17,7 +17,8 @@ async def awake(event):
 
 
 mod_name = "alive"
-command_list = [
-    "alive"
+command_list = ["alive"]
 
 
+
+    
