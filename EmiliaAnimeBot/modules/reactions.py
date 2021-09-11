@@ -1,7 +1,7 @@
 import random
 
-from Yumi_Robot import dispatcher
-from Yumi_Robot.modules.disable import DisableAbleCommandHandler
+from EmiliaAnimeBot import dispatcher
+from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
 from telegram import Update
 from telegram.ext import CallbackContext, run_async
 
