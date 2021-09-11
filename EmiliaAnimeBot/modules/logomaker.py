@@ -8,9 +8,9 @@ from PIL import Image, ImageDraw, ImageFont
 
 logopics = [
  
- "./EmiliaAnimeBot/resources/logopics/IMG_20210910_221049_647.jpg",
+ "./EmiliaAnimeBot/resources/logopics/logopic1.jpg",
 	
- "./EmiliaAnimeBot/resources/logopics/LogoFile2.jpg",
+ "./EmiliaAnimeBot/resources/logopics/logopic2.jpg",
 	
  "./EmiliaAnimeBot/resources/logopics/Logofile3.jpg",
 	
