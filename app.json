@@ -1,15 +1,15 @@
 {
-      "name": "EmiliaBot",
-      "description": "An Anime themed Telegram group management bot.",
-      "logo": "https://telegra.ph/file/3cf1be03a3b1653cc98d1.jpg", 
+      "name": "Yumi_Robot",
+      "description": "group management robot.",
+      "logo": "https://telegra.ph/file/d7d927fe899b7415e21d7.jpg", 
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Emilia"
+         "Yumi"
       ],   
-   "repository": "https://github.com/IzumiCypherX/EmiliaAnimeBot",
+   "repository": "https://github.com/nishikataxpg/yumi_robot",
    "addons": [
       {
          "options": {
