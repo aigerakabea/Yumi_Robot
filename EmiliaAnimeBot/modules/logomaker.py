@@ -41,7 +41,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('〘 Cʀᴇᴀᴛɪɴɢ... ʟᴏɢᴏ ғᴏʀ ʏᴏᴜ 〙')
+ await event.reply('Cʀᴇᴀᴛɪɴɢ Nᴏᴡ... Wᴀɪᴛ!!!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open(random.choice(logopics))
@@ -76,7 +76,7 @@ __mod_name__ = "Logos"
 
 __help__ = """
 
-`/logo` *:* Create a logo with text!
+`/logo` *:* Cʀᴇᴀᴛ ᴀ ʟᴏɢᴏ ᴡɪᴛʜ Tᴇxᴛ!
 
 """
 
