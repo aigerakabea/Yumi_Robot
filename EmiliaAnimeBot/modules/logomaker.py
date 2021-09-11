@@ -41,7 +41,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Creating your logo...wait!')
+ await event.reply('〘 Cʀᴇᴀᴛɪɴɢ... ʟᴏɢᴏ ғᴏʀ ʏᴏᴜ 〙')
  try:
     text = event.pattern_match.group(1)
     img = Image.open(random.choice(logopics))
@@ -64,7 +64,7 @@ async def lego(event):
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Report @TangentChats, {e}')
+   await event.reply(f'Error Report @pigasusSupport, {e}')
 
    
 file_help = os.path.basename(__file__)
