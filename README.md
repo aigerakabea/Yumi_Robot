@@ -34,7 +34,7 @@ Thanks To:
 
 
 
-The Support group can be reached out to at [PIGASU](https://t.me/pigasusSupport), where you can ask for help about [❤️ YUMI-ROBOT ❤️](https://t.me/yumi_Robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+The Support group can be reached out to at [PIGASUS-SUPPORT](https://t.me/pigasusSupport), where you can ask for help about [❤️ YUMI-ROBOT ❤️](https://t.me/yumi_Robot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 <details>
 	<summary>Heroku Deploy</summary>
