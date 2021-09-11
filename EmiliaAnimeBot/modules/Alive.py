@@ -16,4 +16,8 @@ async def awake(event):
   await tbot.send_file(event.chat_id, PHOTO, caption=PIKACHU,  buttons=BUTTON)
 
 
-mod_name = "✗Alive✗"
+mod_name = "alive"
+command_list = [
+    "alive"
+
+
