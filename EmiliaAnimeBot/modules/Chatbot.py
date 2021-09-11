@@ -18,10 +18,10 @@ aiohttpsession = ClientSession()
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 
 
-BOT_ID = 1975581385
+BOT_ID = 1984344452
 
-__mod_name__ = "ChatBot"
-__help__ = """
+mod_name = "ChatBot"
+help = """
 /chatbot [ENABLE|DISABLE] To Enable Or Disable ChatBot In Your Chat.
 """
 
@@ -43,7 +43,7 @@ async def chat_bot_toggle(db, message: Message):
         await eor(message, text="ChatBot Is Already Disabled.")
     else:
         await eor(
-            message, text="**Usage:**\n/chatbot [ENABLE|DISABLE]"
+            message, text="Usage:\n/chatbot [ENABLE|DISABLE]"
         )
 
 
@@ -55,7 +55,7 @@ async def chat_bot_toggle(db, message: Message):
 async def chatbot_status(_, message: Message):
     if len(message.command) != 2:
         return await eor(
-            message, text="**Usage:**\n/chatbot [ENABLE|DISABLE]"
+            message, text="Usage:\n/chatbot [ENABLE|DISABLE]"
         )
     await chat_bot_toggle(active_chats_bot, message)
 
