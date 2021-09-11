@@ -232,7 +232,7 @@ __help__ = """
  • `/pat`*:* pats a user, or get patted (^-^)
  • `/uwu`*:* gives a UwU reaction with girf or sticker
  • `/owo`*:* gives a OwO reaction with gif or sticket
- • `/react *:* get random reaction 
+ • `/react`*:* get random reaction 
   - - - - - - - - - -
 • *Games* 🎲 *:*
  • `/truth`*:* Get ready to reveal a surprising truth🤫
