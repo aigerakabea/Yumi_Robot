@@ -24,7 +24,7 @@ logofonts = [
 	
  "./EmiliaAnimeBot/resources/logofonts/Vampire Wars Italic.ttf",
 	
- "./EmiliaAnimeBot/resources/logofonts/Respective-VP6y.ttf"
+ "./EmiliaAnimeBot/resources/logofonts/Neon machine.ttf"
  
 ]
 
