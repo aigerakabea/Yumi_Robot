@@ -46,11 +46,11 @@ async def lego(event):
     shadowcolor = "blue"
     font = ImageFont.truetype(random.choice(logofonts) , 250)
     w, h = draw.textsize(text, font=font)
-    h += int(h*0.21)
+    h += int(h*0.10)
     image_width, image_height = img.size
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/1
-    y= ((image_heightz-h)/2+5)
+    y= ((image_heightz-h)/2+6)
     draw.text((x, y), text, font=font, fill="blue", stroke_width=25, stroke_fill="black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
