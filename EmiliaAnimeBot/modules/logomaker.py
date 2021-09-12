@@ -9,6 +9,8 @@ from PIL import Image, ImageDraw, ImageFont
 logopics = [
  
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
+
+"./EmiliaAnimeBot/resources/logopics/photo_2021-09-12_15-22-06.jpg",
 	
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg"
  
@@ -47,8 +49,8 @@ async def lego(event):
     h += int(h*0.21)
     image_width, image_height = img.size
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
-    x = (image_widthz-w)/2
-    y= ((image_heightz-h)/2+5)
+    x = (image_widthz-w)/1
+    y= ((image_heightz-h)/1+6)
     draw.text((x, y), text, font=font, fill="blue", stroke_width=25, stroke_fill="black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
