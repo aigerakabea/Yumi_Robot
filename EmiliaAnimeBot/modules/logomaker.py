@@ -39,7 +39,7 @@ async def lego(event):
     img = Image.open(random.choice(logopics))
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
-    pointsize = 400
+    pointsize = 500
     fillcolor = "blue"
     shadowcolor = "blue"
     font = ImageFont.truetype(random.choice(logofonts) , 250)
