@@ -55,6 +55,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hey there!` [🧑](https://telegra.ph/file/1682027883777783a43a9.mp4) 
+
 `My name is` *VALT AOI*`
 
 `I am a Beyblade themed group management bot.`
@@ -69,27 +70,32 @@ You can find my list of available commands with` *./help*
 buttons = [
     [
         InlineKeyboardButton(
-            text="【 ✗Aᴅᴅ VALT AOI ᴛᴏ Yᴏᴜʀ ɢʀᴏᴜᴘ✗ 】",url="http://t.me/VALTAOITHEBOT?startgroup=true"
+            text="➕️ ADD VALT AOI TO YOUR GROUP ➕️",url="t.me/VALTAOITHEBOT?startgroup=true"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="【 ✗CHECK MY FRIEND✗ 】", url="http://t.me/Aigerakabanethebladerbot"
+          text="🔐 Commands", callback_data="help_back"
         ),
     ],
     [
         InlineKeyboardButton(
-          text="【 ✗Uᴘᴅᴀᴛᴇs✗ 】", url="https://t.me/pigasusUpdates"
+          text="📮 Updates", url="https://t.me/PigasusUpdates"
         ),
       
         InlineKeyboardButton(
-          text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PigasusSupport"
+          text="CHECK MY FRIEND", url="http://t.me/Aigerakabanethebladerbot"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1"
+           text="🐱 Support", url="https://t.me/PigasusSupport"
+         ),
+    ],
+    [
+      InlineKeyboardButton(
+           text="MY OWNER", url="https://t.me/Rohith_no_1"
          ),
     ],
     [
@@ -102,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [VALT AOI!](https://telegra.ph/file/1682027883777783a43a9.mp4) 
+`Hey there! My name is` [AIGER AKABANE!](https://telegra.ph/file/bec15d2c0a2fcb63ec99c.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
