@@ -12,7 +12,7 @@ logopics = [
 	
  "./EmiliaAnimeBot/resources/logopics/logopic2.jpg",
 	
- "./EmiliaAnimeBot/resources/logopics/Logofile3.jpg",
+ "./EmiliaAnimeBot/resources/logopics/logopic3.jpeg",
 	
  "./EmiliaAnimeBot/resources/logopics/LogoFile4.jpg"
  
