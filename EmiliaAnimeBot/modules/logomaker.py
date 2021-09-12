@@ -46,7 +46,7 @@ async def lego(event):
     shadowcolor = "blue"
     font = ImageFont.truetype(random.choice(logofonts) , 250)
     w, h = draw.textsize(text, font=font)
-    h += int(h*0.46)
+    h += int(h*0.23)
     image_width, image_height = img.size
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/1
