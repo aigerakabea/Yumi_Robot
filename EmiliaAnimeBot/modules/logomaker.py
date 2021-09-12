@@ -22,7 +22,7 @@ logofonts = [
  
  "./EmiliaAnimeBot/resources/logofonts/Vampire Wars.otf",
 	
- "./EmiliaAnimeBot/resources/logofonts/beyond-wonderland.regular.ttf",
+ "./EmiliaAnimeBot/resources/logofonts/Vampire Wars Italic.ttf",
 	
  "./EmiliaAnimeBot/resources/logofonts/Respective-VP6y.ttf"
  
