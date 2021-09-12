@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/1682027883777783a43a9.mp4"
+EMILIA_IMG = "https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -54,7 +54,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey there!` [🧑](https://telegra.ph/file/1682027883777783a43a9.mp4) 
+`Hey there!` [🧑](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
 
 `My name is` *VALT AOI*`
 
@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [AIGER AKABANE!](https://telegra.ph/file/bec15d2c0a2fcb63ec99c.jpg) 
+`Hey there! My name is` [VALT AOI!](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
