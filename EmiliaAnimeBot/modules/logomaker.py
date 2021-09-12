@@ -8,23 +8,15 @@ from PIL import Image, ImageDraw, ImageFont
 
 logopics = [
  
- "./EmiliaAnimeBot/resources/logopics/logopic1.jpg",
+ "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
 	
- "./EmiliaAnimeBot/resources/logopics/logopic2.jpg",
-	
- "./EmiliaAnimeBot/resources/logopics/logopic3.jpeg",
-	
- "./EmiliaAnimeBot/resources/logopics/logopic4.jpeg"
+ "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg"
  
 ]
 
 logofonts = [
  
- "./EmiliaAnimeBot/resources/logofonts/Vampire Wars.otf",
-	
- "./EmiliaAnimeBot/resources/logofonts/Vampire Wars Italic.ttf",
-	
- "./EmiliaAnimeBot/resources/logofonts/Neon machine.ttf"
+ "./EmiliaAnimeBot/resources/logofonts/Beyblade Metal Fight Font.ttf"
  
 ]
 
@@ -60,7 +52,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="yellow", stroke_width=25, stroke_fill="black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @Yumi_Robot 👸 Cʀᴇᴀᴛᴇʀ ʙʏ @Ctzfamily 🤴")
+    await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @VALTAOITHEBOT Cʀᴇᴀᴛᴇʀ ʙʏ @Rohith_no_1")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
