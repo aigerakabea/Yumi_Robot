@@ -54,9 +54,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey There!` [🧑](https://telegra.ph/file/1682027883777783a43a9.mp4) 
+`Hey there!` [🧑](https://telegra.ph/file/1682027883777783a43a9.mp4) 
 `My name is` *VALT AOI*`
-`I am an group management bot.`
+
+`I am a Beyblade themed group management bot.`
+
+Managed by Pigasus Update for your telegram group
+
+Join @PigasusUpdates And @PigasusSupport
+
 You can find my list of available commands with` *./help*   
 """
 
@@ -68,7 +74,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="【 ✗CHECK MY FRIEND✗ 】", url="http://t.me/testinglogobot"
+          text="【 ✗CHECK MY FRIEND✗ 】", url="http://t.me/Aigerakabanethebladerbot"
         ),
     ],
     [
