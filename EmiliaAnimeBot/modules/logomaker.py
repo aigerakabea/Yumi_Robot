@@ -46,12 +46,12 @@ async def lego(event):
     shadowcolor = "blue"
     font = ImageFont.truetype(random.choice(logofonts) , 250)
     w, h = draw.textsize(text, font=font)
-    h += int(h*0.23)
+    h += int(h*0.45)
     image_width, image_height = img.size
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
-    x = (image_widthz-w)/1
+    x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="blue", stroke_width=25, stroke_fill="black")
+    draw.text((x, y), text, font=font, fill="blue", stroke_width=23, stroke_fill="black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @VALTAOITHEBOT Cʀᴇᴀᴛᴇʀ ʙʏ @Rohith_no_1")
