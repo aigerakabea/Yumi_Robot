@@ -37,7 +37,7 @@ async def lego(event):
        return
     else:
        pass
- await event.reply('Cʀᴇᴀᴛɪɴɢ Nᴏᴡ... Wᴀɪᴛ!!!')
+ await event.reply('My owner is Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
     img = Image.open(random.choice(logopics))
