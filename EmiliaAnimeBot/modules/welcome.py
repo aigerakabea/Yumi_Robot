@@ -39,7 +39,7 @@ from telegram.utils.helpers import escape_markdown, mention_html, mention_markdo
 
 
 
-OWNER_WELCOME_IMG = "https://telegra.ph/file/61a81e8e8f4cb3d16cd90.jpg"
+OWNER_WELCOME_IMG = "https://telegra.ph/file/5f86acf8dbd197f69c872.jpg"
 
 VALID_WELCOME_FORMATTERS = [
     "first",
