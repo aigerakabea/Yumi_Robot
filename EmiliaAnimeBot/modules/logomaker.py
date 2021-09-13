@@ -12,7 +12,7 @@ logopics = [
 
 "./EmiliaAnimeBot/resources/logopics/photo_2021-09-12_15-22-06.jpg",
 
-"./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg",
+"./EmiliaAnimeBot/resources/logopics/photo_2021-09-13_13-54-45.jpg",
 	
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg"
  
@@ -20,7 +20,7 @@ logopics = [
 
 logofonts = [
  
- "./EmiliaAnimeBot/resources/logofonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf"
+ "./EmiliaAnimeBot/resources/logofonts/Bigpartyo2green-d95XV.ttf"
  
 ]
 
