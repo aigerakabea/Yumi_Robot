@@ -11,6 +11,8 @@ logopics = [
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
 
 "./EmiliaAnimeBot/resources/logopics/photo_2021-09-12_15-22-06.jpg",
+
+"./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg",
 	
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg"
  
@@ -51,7 +53,7 @@ async def lego(event):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(100, 100, 100))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="Blue", stroke_width=23, stroke_fill="blue")
+    draw.text((x, y), text, font=font, fill="Blue", stroke_width=23, stroke_fill="Black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
     await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @VALTAOITHEBOT Cʀᴇᴀᴛᴇʀ ʙʏ @Rohith_no_1")
