@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [BEL DAIZORA !](https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg) 
+`Hey there! My name is` [BEll DAIZORA !](https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
@@ -232,10 +232,10 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/bbttbotssuppportandhelp")
+                  InlineKeyboardButton(text="【 Sᴜᴘᴘᴏʀᴛ 】", url="https://t.me/bbttbotssuppportandhelp")
                   ],
                   [
-                  InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1")
+                  InlineKeyboardButton(text="【 Cʀᴇᴀᴛᴇʀ 】", url="https://t.me/ROHITH_NO_1")
                   ]
                 ]
             ),
@@ -402,7 +402,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *BEL DAIZORA *
+            text=""" Hi.  🧑 I'm *BEL DAIZORA *
                  \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
