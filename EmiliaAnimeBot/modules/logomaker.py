@@ -7,12 +7,6 @@ from PIL import Image, ImageDraw, ImageFont
 
 
 logopics = [
- 
- "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_10-41-31.jpg",
-
-"./EmiliaAnimeBot/resources/logopics/photo_2021-09-12_15-22-06.jpg",
-
-"./EmiliaAnimeBot/resources/logopics/photo_2021-09-13_13-54-45.jpg",
 	
  "./EmiliaAnimeBot/resources/logopics/photo_2021-09-11_15-46-57.jpg"
  
@@ -56,7 +50,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="Blue", stroke_width=23, stroke_fill="Black")
     fname2 = "Logo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @VALTAOITHEBOT Cʀᴇᴀᴛᴇʀ ʙʏ @Rohith_no_1")
+    await tbot.send_file(event.chat_id, fname2, caption="Mᴀᴅᴇ ʙʏ @BelDaizoraRobot Cʀᴇᴀᴛᴇʀ ʙʏ @Rohith_no_1")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
