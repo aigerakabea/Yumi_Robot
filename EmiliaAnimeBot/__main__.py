@@ -90,7 +90,7 @@ buttons = [
          
     [
        InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/bbttbotssuppportandhelp"
+           text="🐱 Support", url="https://t.me/zbotschat"
          ),
     ],
     [
