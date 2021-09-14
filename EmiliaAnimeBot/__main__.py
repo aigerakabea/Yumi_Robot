@@ -55,10 +55,15 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 `Hey there!` [🧑](https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg) 
+
 `My name is` *Bel Daizora*`
+
 `I am a Beyblade themed group management bot.`
+
 Managed by Pigasus Update for your telegram group
+
 Join @PigasusUpdates And @PigasusSupport
+
 You can find my list of available commands with` *./help*   
 """
 
