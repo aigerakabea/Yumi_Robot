@@ -14,7 +14,7 @@ logopics = [
 
 logofonts = [
  
- "./EmiliaAnimeBot/resources/logofonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf"
+ "./EmiliaAnimeBot/resources/logofonts/Neon machine.ttf"
  
 ]
 
