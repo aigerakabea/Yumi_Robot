@@ -21,7 +21,7 @@ from telegram.ext import (CallbackContext, CallbackQueryHandler, CommandHandler,
 from telegram.ext.dispatcher import DispatcherHandlerStop, run_async
 from telegram.utils.helpers import escape_markdown
 
-EMILIA_IMG = "https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg"
+EMILIA_IMG = "https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg"
 
 
 def get_readable_time(seconds: int) -> str:
@@ -54,15 +54,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hey there!` [🧑](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+`Hey there!` [🧑](https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg) 
 
-`My name is` *VALT AOI*`
+`My name is` *Bel Daizora*`
 
 `I am a Beyblade themed group management bot.`
 
-Managed by Pigasus Update for your telegram group
+Managed by Z bots Update for your telegram group
 
-Join @PigasusUpdates And @PigasusSupport
+Join @Zbotscreator And @bbttbotssuppportandhelp
 
 You can find my list of available commands with` *./help*   
 """
@@ -70,7 +70,7 @@ You can find my list of available commands with` *./help*
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD VALT AOI TO YOUR GROUP ➕️",url="t.me/VALTAOITHEBOT?startgroup=true"
+            text="➕️ ADD BEL DAIZORA TO YOUR GROUP ➕️",url="t.me/BelDaizoraRobot?startgroup=true"
         ),
     ],
     [
@@ -80,17 +80,17 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-          text="📮 Updates", url="https://t.me/PigasusUpdates"
+          text="📮 Updates", url="https://t.me/Zbotscreator"
         ),
       
         InlineKeyboardButton(
-          text="CHECK MY FRIEND", url="http://t.me/Aigerakabanethebladerbot"
+          text="CHECK MY FRIEND", url="http://t.me/VALTAOITHEBOT"
         ),
     ],
          
     [
        InlineKeyboardButton(
-           text="🐱 Support", url="https://t.me/PigasusSupport"
+           text="🐱 Support", url="https://t.me/bbttbotssuppportandhelp"
          ),
     ],
     [
@@ -108,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hey there! My name is` [VALT AOI!](https://telegra.ph/file/cd95b1bd8d5381cb3fb70.jpg) 
+`Hey there! My name is` [BEL DAIZORA !](https://telegra.ph/file/426860bdd76da1b3fcdf8.jpg) 
 I'm a Half Elf and help admins manage their groups with Some Powerful Features! \n`Have a look at the following for an idea of some of the things I can help you with.`"""
 
 DONATE_STRING = """
@@ -225,14 +225,14 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            EMILIA_IMG, caption= "<code>valt aoi ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
+            EMILIA_IMG, caption= "<code>BEL DAIZORA  ʜᴇʀᴇ ғᴏʀ ʏᴏᴜ❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/PigasusSupport")
+                  InlineKeyboardButton(text="【 ✗Sᴜᴘᴘᴏʀᴛ✗ 】", url="https://t.me/bbttbotssuppportandhelp")
                   ],
                   [
                   InlineKeyboardButton(text="【 ✗Cʀᴇᴀᴛᴇʀ✗ 】", url="https://t.me/ROHITH_NO_1")
@@ -369,14 +369,14 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *VALT AOI*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *BEL DAIZORA *, a powerful group management bot built to help you manage your group easily.
                  \n❍ I can restrict users.
                  \n❍ I can greet users with customizable welcome messages and even set a group's rules.
                  \n❍ I have an advanced anti-flood system.
                  \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
-                 \n\nIf you have any question about *VALT AOI*, let us know at .""",
+                 \n\nIf you have any question about *BEL DAIZORA *, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -402,7 +402,7 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..👸 I'm *VALT AOI*
+            text=""" Hi..👸 I'm *BEL DAIZORA *
                  \nMy Source Code Can be Found at Github at this [Link](https://github.com/IzumiCypherX/EmiliaAnimeBot""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -703,7 +703,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "VALT AOI IS BACK TO ONLINE")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "BEL DAIZORA IS BACK TO ONLINE")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
